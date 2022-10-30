@@ -1,0 +1,20 @@
+{
+    "name": "hp/structural",
+    "autoload": {
+        "psr-4": {
+            "Hp\\Structural\\": "src/" , 
+            "Structural\\":"Structural" ,
+            "Mapper\\" :"Mapper",
+            "Solid\\":"Solid",
+            "Behavioral\\":"Behavioral"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmedZread123"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
